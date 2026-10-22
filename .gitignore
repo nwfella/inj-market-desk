@@ -1,0 +1,7 @@
+# scratch / verification artifacts
+shot_*.png
+out_dom.html
+verify_tmp.html
+data/cg_volume.json
+__pycache__/
+*.pyc

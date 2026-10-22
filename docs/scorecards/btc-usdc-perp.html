@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BTC/USDC PERP — Injective market scorecard</title>
+<style>
+:root{--bg:#0b0d10;--panel:#14181d;--line:#232a33;--fg:#e8edf3;--dim:#8b98a8;--acc:#37d39b;--warn:#f2b13c;--bad:#ef5f6b;--serif:Georgia,'Times New Roman',serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:34px 22px 60px}
+.kicker{font:600 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+h1{font:700 34px/1.1 var(--serif);margin:10px 0 4px;letter-spacing:-.01em}
+.sub{color:var(--dim);font-size:13px;margin-bottom:22px}
+.verdict{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);padding:16px 18px;border-radius:6px;margin:18px 0 26px}
+.verdict b{font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:0 0 26px}
+.cell{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 14px}
+.cell .k{font:600 10px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--dim);margin-bottom:7px}
+.cell .v{font:700 20px/1.1 var(--mono)}
+h2{font:700 13px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin:30px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{font:600 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--dim)}
+td.num,th.num{text-align:right;font-family:var(--mono)}
+ul{margin:0;padding-left:18px}li{margin:9px 0}
+.tag{display:inline-block;font:600 10px/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--bg);background:var(--warn);padding:3px 6px;border-radius:3px;margin-right:6px;vertical-align:1px}
+.tag.no-book,.tag.thin,.tag.concentrated{background:var(--bad)}
+.tag.ok{background:var(--acc)}
+.foot{margin-top:34px;padding-top:14px;border-top:1px solid var(--line);color:var(--dim);font-size:12px}
+.note{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 14px;color:var(--dim);font-size:12.5px}
+@media print{
+ body{background:#fff;color:#111}
+ .wrap{max-width:none;padding:0}
+ .cell,.verdict,.note{background:#fff;border-color:#ccc}
+ h1{color:#111} .kicker,h2,.sub,.foot{color:#555}
+ td,th{border-color:#ddd} .verdict{border-left-color:#111}
+}
+</style></head><body><div class="wrap">
+<div class="kicker">Injective Market Desk · market scorecard</div>
+<h1>BTC/USDC PERP</h1>
+<div class="sub">Snapshot 2026-10-22T23:05:35Z · oracle ChainlinkDataStreams · market <code>0x0ee7ca44147bab6e…</code></div>
+
+<div class="verdict"><b>Grade A (94.8/100) — healthy for its tier.</b> Two-sided, 7.8 bps wide with $315.7k of depth inside 25 bps.</div>
+
+<div class="grid">
+  <div class="cell"><div class="k">Health score</div><div class="v">94.8<span style="color:var(--dim);font-size:14px"> /100 · A</span></div></div>
+  <div class="cell"><div class="k">Spread</div><div class="v">7.8<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
+  <div class="cell"><div class="k">Depth ≤25 bps</div><div class="v">$315.7k</div></div>
+  <div class="cell"><div class="k">24h volume</div><div class="v">$16.66M</div></div>
+</div>
+
+<h2>What the book says</h2>
+<ul><li><span class='tag'>ok</span> Two-sided, reasonably tight and deep for its volume tier. No structural problem detected at this snapshot.</li></ul>
+
+<h2>Versus the benchmark</h2>
+<table>
+<tr><th>Metric</th><th class="num">BTC</th><th class="num">BTC/USDC PERP</th></tr>
+<tr><td>Health score</td><td class='num'>94.8</td><td class='num'>94.8</td></tr><tr><td>Spread (bps)</td><td class='num'>7.8</td><td class='num'>7.8</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$315.7k</td><td class='num'>$315.7k</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$1.10M</td><td class='num'>$1.10M</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>0.26</td><td class='num'>0.26</td></tr><tr><td>Book imbalance</td><td class='num'>+3%</td><td class='num'>+3%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>9 / 7</td><td class='num'>9 / 7</td></tr><tr><td>24h volume (USD)</td><td class='num'>$16.66M</td><td class='num'>$16.66M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>7.8</td><td class='num'>7.8</td></tr>
+</table>
+
+<h2>What to do next</h2>
+<ul><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
+
+<div class="note">Taker fee on this market reads 0.01 bps from the market metadata
+(<code>taker_fee_rate</code>), so the round-trip column is dominated by spread, not fees. Funding,
+open interest and maker identity are not in this snapshot — Phase 1 adds them from the indexer.</div>
+
+<div class="foot">
+Measured, not estimated: order books read from Injective's public LCD at
+<code>sentry.lcd.injective.network</code> (keyless), prices normalised by 1e6, depth sampled from the
+touch. 24h volume is a third-party CoinGecko figure for the same venue. Single-snapshot view —
+spreads move, and an empty book at one moment does not prove a market is dead all day.<br><br>
+<a href="../index.html" style="color:var(--acc)">← all 286 markets</a>
+</div>
+</div></body></html>
