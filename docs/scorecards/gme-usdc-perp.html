@@ -37,28 +37,28 @@ ul{margin:0;padding-left:18px}li{margin:9px 0}
 </style></head><body><div class="wrap">
 <div class="kicker">Injective Market Desk · market scorecard</div>
 <h1>GME/USDC PERP</h1>
-<div class="sub">Snapshot 2026-10-22T23:08:42Z · oracle PythPro · market <code>0x0fed46bbab3ebb26…</code></div>
+<div class="sub">Snapshot 2026-10-23T01:32:15Z · oracle PythPro · market <code>0x0fed46bbab3ebb26…</code></div>
 
-<div class="verdict"><b>Grade D (40.2/100) — quoted but fragile.</b> 737.6 bps wide, $10 of two-sided depth inside 25 bps.</div>
+<div class="verdict"><b>Grade D (40.3/100) — quoted but fragile.</b> 743.6 bps wide, $10 of two-sided depth inside 25 bps.</div>
 
 <div class="grid">
-  <div class="cell"><div class="k">Health score</div><div class="v">40.2<span style="color:var(--dim);font-size:14px"> /100 · D</span></div></div>
-  <div class="cell"><div class="k">Spread</div><div class="v">737.6<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
+  <div class="cell"><div class="k">Health score</div><div class="v">40.3<span style="color:var(--dim);font-size:14px"> /100 · D</span></div></div>
+  <div class="cell"><div class="k">Spread</div><div class="v">743.6<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
   <div class="cell"><div class="k">Depth ≤25 bps</div><div class="v">$10</div></div>
   <div class="cell"><div class="k">24h volume</div><div class="v">$51.4k</div></div>
 </div>
 
 <h2>What the book says</h2>
-<ul><li><span class='tag'>wide</span> Spread is 737.6 bps, 74× wider than BTC (10.0 bps). A round trip costs 737.6 bps before any price move.</li><li><span class='tag'>thin</span> Two-sided depth within 25 bps of the touch is $10. BTC holds $315.7k in the same band.</li></ul>
+<ul><li><span class='tag'>wide</span> Spread is 743.6 bps, 99× wider than BTC (7.5 bps). A round trip costs 743.6 bps before any price move.</li><li><span class='tag'>thin</span> Two-sided depth within 25 bps of the touch is $10. BTC holds $313.0k in the same band.</li></ul>
 
 <h2>Versus the benchmark</h2>
 <table>
 <tr><th>Metric</th><th class="num">GME</th><th class="num">BTC/USDC PERP</th></tr>
-<tr><td>Health score</td><td class='num'>40.2</td><td class='num'>94.5</td></tr><tr><td>Spread (bps)</td><td class='num'>737.6</td><td class='num'>10.0</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$10</td><td class='num'>$315.7k</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$10</td><td class='num'>$1.10M</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>0.50</td><td class='num'>0.26</td></tr><tr><td>Book imbalance</td><td class='num'>-1%</td><td class='num'>+3%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>1 / 1</td><td class='num'>9 / 7</td></tr><tr><td>24h volume (USD)</td><td class='num'>$51.4k</td><td class='num'>$16.65M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>737.6</td><td class='num'>10.0</td></tr>
+<tr><td>Health score</td><td class='num'>40.3</td><td class='num'>94.8</td></tr><tr><td>Spread (bps)</td><td class='num'>743.6</td><td class='num'>7.5</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$10</td><td class='num'>$313.0k</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$10</td><td class='num'>$1.10M</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>0.50</td><td class='num'>0.26</td></tr><tr><td>Book imbalance</td><td class='num'>+0%</td><td class='num'>+3%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>1 / 1</td><td class='num'>9 / 7</td></tr><tr><td>24h volume (USD)</td><td class='num'>$51.4k</td><td class='num'>$16.65M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>743.6</td><td class='num'>7.5</td></tr>
 </table>
 
 <h2>What to do next</h2>
-<ul><li>Tighten the touch below 100 bps (currently 737.6).</li><li>Put at least $5k of two-sided size within 25 bps (currently $10).</li><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
+<ul><li>Tighten the touch below 100 bps (currently 743.6).</li><li>Put at least $5k of two-sided size within 25 bps (currently $10).</li><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
 
 <div class="note">Taker fee on this market reads 0.01 bps from the market metadata
 (<code>taker_fee_rate</code>), so the round-trip column is dominated by spread, not fees. Funding,
