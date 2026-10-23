@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ZRO/USDC PERP — Injective market scorecard</title>
+<title>STX/USDC PERP — Injective market scorecard</title>
 <style>
 :root{--bg:#0b0d10;--panel:#14181d;--line:#232a33;--fg:#e8edf3;--dim:#8b98a8;--acc:#37d39b;--warn:#f2b13c;--bad:#ef5f6b;--serif:Georgia,'Times New Roman',serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 *{box-sizing:border-box}
@@ -36,29 +36,29 @@ ul{margin:0;padding-left:18px}li{margin:9px 0}
 }
 </style></head><body><div class="wrap">
 <div class="kicker">Injective Market Desk · market scorecard</div>
-<h1>ZRO/USDC PERP</h1>
-<div class="sub">Snapshot 2026-10-23T13:27:33Z · oracle ChainlinkDataStreams · market <code>0x5dec5f8bbd072dd1…</code></div>
+<h1>STX/USDC PERP</h1>
+<div class="sub">Snapshot 2026-10-23T18:22:37Z · oracle PythPro · market <code>0xf62b4cc0cbac41c1…</code></div>
 
-<div class="verdict"><b>Grade C (62.1/100) — quoted but fragile.</b> 38.8 bps wide, $7.2k of two-sided depth inside 25 bps.</div>
+<div class="verdict"><b>Grade F (12.7/100) — not tradeable.</b> The book is empty or one-sided, so the market's $125.3k of 24h volume is not currently reachable by a taker.</div>
 
 <div class="grid">
-  <div class="cell"><div class="k">Health score</div><div class="v">62.1<span style="color:var(--dim);font-size:14px"> /100 · C</span></div></div>
-  <div class="cell"><div class="k">Spread</div><div class="v">38.8<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
-  <div class="cell"><div class="k">Depth ≤25 bps</div><div class="v">$7.2k</div></div>
-  <div class="cell"><div class="k">24h volume</div><div class="v">$65.5k</div></div>
+  <div class="cell"><div class="k">Health score</div><div class="v">12.7<span style="color:var(--dim);font-size:14px"> /100 · F</span></div></div>
+  <div class="cell"><div class="k">Spread</div><div class="v">—<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
+  <div class="cell"><div class="k">Depth ≤25 bps</div><div class="v">$0</div></div>
+  <div class="cell"><div class="k">24h volume</div><div class="v">$125.3k</div></div>
 </div>
 
 <h2>What the book says</h2>
-<ul><li><span class='tag'>wide-mid</span> Spread is 38.8 bps versus 8.7 bps on BTC — tradeable for retail size, expensive for anyone hedging.</li></ul>
+<ul><li><span class='tag'>no-book</span> No two-sided quote at snapshot time. The market could not be traded at any size without crossing a one-sided book, whatever its 24h volume says.</li><li><span class='tag'>vol-gap</span> 24h volume is $125.3k against $0 of two-sided depth. Volume is arriving without a book to absorb it — the fill quality is not visible from the volume number alone.</li></ul>
 
 <h2>Versus the benchmark</h2>
 <table>
-<tr><th>Metric</th><th class="num">ZRO</th><th class="num">BTC/USDC PERP</th></tr>
-<tr><td>Health score</td><td class='num'>62.1</td><td class='num'>94.5</td></tr><tr><td>Spread (bps)</td><td class='num'>38.8</td><td class='num'>8.7</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$7.2k</td><td class='num'>$303.2k</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$38.7k</td><td class='num'>$1.09M</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>0.27</td><td class='num'>0.27</td></tr><tr><td>Book imbalance</td><td class='num'>+66%</td><td class='num'>+3%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>5 / 3</td><td class='num'>9 / 7</td></tr><tr><td>24h volume (USD)</td><td class='num'>$65.5k</td><td class='num'>$15.94M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>38.8</td><td class='num'>8.7</td></tr>
+<tr><th>Metric</th><th class="num">STX</th><th class="num">BTC/USDC PERP</th></tr>
+<tr><td>Health score</td><td class='num'>12.7</td><td class='num'>94.7</td></tr><tr><td>Spread (bps)</td><td class='num'>—</td><td class='num'>8.8</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$0</td><td class='num'>$316.5k</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$0</td><td class='num'>$1.10M</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>—</td><td class='num'>0.26</td></tr><tr><td>Book imbalance</td><td class='num'>—</td><td class='num'>+3%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>2 / 0</td><td class='num'>9 / 7</td></tr><tr><td>24h volume (USD)</td><td class='num'>$125.3k</td><td class='num'>$15.72M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>—</td><td class='num'>8.8</td></tr>
 </table>
 
 <h2>What to do next</h2>
-<ul><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
+<ul><li>Get a two-sided quote resting before spending on anything else: a market with no bid and no ask converts zero visitors regardless of listing spend.</li><li>Decide whether the market is a trading venue or a listing trophy. If nobody is obligated to quote it, budget for a maker incentive instead of more marketing.</li><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
 
 <div class="note">Taker fee on this market reads 0.01 bps from the market metadata
 (<code>taker_fee_rate</code>), so the round-trip column is dominated by spread, not fees. Funding,
