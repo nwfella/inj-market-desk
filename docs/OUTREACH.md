@@ -1,13 +1,13 @@
 # Outreach — Phase 0
 
-Generated 2026-10-24T23:15:11Z from `data/latest.json`. Do not hand-edit; regenerate with
+Generated 2026-10-25T01:14:51Z from `data/latest.json`. Do not hand-edit; regenerate with
 `python build_site.py`.
 
 ## The three numbers to lead with
 
-- **181 of 286 Injective perp markets (63.3%)** had no two-sided quote at snapshot time.
-- The median quoted market is **84.8 bps wide** (BTC: 12.2 bps).
-- **Median two-sided depth inside 25 bps: $10.** The whole venue holds $1.00M within 25 bps.
+- **186 of 286 Injective perp markets (65.0%)** had no two-sided quote at snapshot time.
+- The median quoted market is **85.9 bps wide** (BTC: 10.5 bps).
+- **Median two-sided depth inside 25 bps: $10.** The whole venue holds $926.3k within 25 bps.
 
 ## Target list — volume is arriving, book is not
 
@@ -16,10 +16,10 @@ Generated 2026-10-24T23:15:11Z from `data/latest.json`. Do not hand-edit; regene
 | `USDSEK/USDC PERP` | 19 F | — | $0 | $451.4k | [scorecard](docs/scorecards/usdsek-usdc-perp.html) |
 | `UNI/USDC PERP` | 17 F | — | $0 | $309.6k | [scorecard](docs/scorecards/uni-usdc-perp.html) |
 | `STX/USDC PERP` | 17 F | — | $0 | $283.3k | [scorecard](docs/scorecards/stx-usdc-perp.html) |
-| `DASH/USDC PERP` | 32 E | 234.6 | $5 | $73.0k | [scorecard](docs/scorecards/dash-usdc-perp.html) |
-| `DELL/USDC PERP` | 34 E | 204.5 | $1 | $71.1k | [scorecard](docs/scorecards/dell-usdc-perp.html) |
-| `XAG/USDC PERP` | 37 D | 19,999.3 | $1 | $344.3k | [scorecard](docs/scorecards/xag-usdc-perp.html) |
-| `SNDK/USDC PERP` | 37 D | 240.1 | $1 | $224.3k | [scorecard](docs/scorecards/sndk-usdc-perp.html) |
+| `DASH/USDC PERP` | 32 E | 225.2 | $5 | $73.7k | [scorecard](docs/scorecards/dash-usdc-perp.html) |
+| `MANTA/USDC PERP` | 33 E | 202.0 | $5 | $106.8k | [scorecard](docs/scorecards/manta-usdc-perp.html) |
+| `STRK/USDC PERP` | 34 E | 233.3 | $5 | $145.0k | [scorecard](docs/scorecards/strk-usdc-perp.html) |
+| `AXS/USDC PERP` | 35 E | 188.7 | $5 | $127.3k | [scorecard](docs/scorecards/axs-usdc-perp.html) |
 
 ## How to find who to email
 
@@ -37,17 +37,17 @@ owns the market's liquidity.
 ## Fill-in values
 
 ```
-BTC/USDC PERP: score=78.7B spread=12.2 depth25=$28.9k vol24h=$16.44M url=<site>/scorecards/btc-usdc-perp.html
-ETH/USDC PERP: score=95.2A spread=6.8 depth25=$346.7k vol24h=$13.09M url=<site>/scorecards/eth-usdc-perp.html
-INJ/USDC PERP: score=85.3A spread=15.7 depth25=$28.4k vol24h=$7.23M url=<site>/scorecards/inj-usdc-perp.html
+BTC/USDC PERP: score=64.0C spread=10.5 depth25=$499 vol24h=$16.47M url=<site>/scorecards/btc-usdc-perp.html
+ETH/USDC PERP: score=95.0A spread=5.5 depth25=$318.9k vol24h=$13.11M url=<site>/scorecards/eth-usdc-perp.html
+INJ/USDC PERP: score=80.1A spread=15.5 depth25=$23.0k vol24h=$7.21M url=<site>/scorecards/inj-usdc-perp.html
 USDSEK/USDC PERP: score=19.1F spread=— depth25=$0 vol24h=$451.4k url=<site>/scorecards/usdsek-usdc-perp.html
 UNI/USDC PERP: score=17.2F spread=— depth25=$0 vol24h=$309.6k url=<site>/scorecards/uni-usdc-perp.html
 STX/USDC PERP: score=16.8F spread=— depth25=$0 vol24h=$283.3k url=<site>/scorecards/stx-usdc-perp.html
-DASH/USDC PERP: score=31.5E spread=234.6 depth25=$5 vol24h=$73.0k url=<site>/scorecards/dash-usdc-perp.html
-DELL/USDC PERP: score=33.8E spread=204.5 depth25=$1 vol24h=$71.1k url=<site>/scorecards/dell-usdc-perp.html
-XAG/USDC PERP: score=36.8D spread=19,999.3 depth25=$1 vol24h=$344.3k url=<site>/scorecards/xag-usdc-perp.html
-SNDK/USDC PERP: score=37.2D spread=240.1 depth25=$1 vol24h=$224.3k url=<site>/scorecards/sndk-usdc-perp.html
-BTC benchmark: spread=12.2 depth25=$28.9k
+DASH/USDC PERP: score=31.6E spread=225.2 depth25=$5 vol24h=$73.7k url=<site>/scorecards/dash-usdc-perp.html
+MANTA/USDC PERP: score=32.9E spread=202.0 depth25=$5 vol24h=$106.8k url=<site>/scorecards/manta-usdc-perp.html
+STRK/USDC PERP: score=33.8E spread=233.3 depth25=$5 vol24h=$145.0k url=<site>/scorecards/strk-usdc-perp.html
+AXS/USDC PERP: score=34.8E spread=188.7 depth25=$5 vol24h=$127.3k url=<site>/scorecards/axs-usdc-perp.html
+BTC benchmark: spread=10.5 depth25=$499
 ```
 
 ## Email A — launch desk (markets with a book but broken microstructure)
