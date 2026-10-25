@@ -37,28 +37,28 @@ ul{margin:0;padding-left:18px}li{margin:9px 0}
 </style></head><body><div class="wrap">
 <div class="kicker">Injective Market Desk · market scorecard</div>
 <h1>BTC/USDC PERP</h1>
-<div class="sub">Snapshot 2026-10-25T01:14:51Z · oracle ChainlinkDataStreams · market <code>0x0ee7ca44147bab6e…</code></div>
+<div class="sub">Snapshot 2026-10-25T06:11:34Z · oracle ChainlinkDataStreams · market <code>0x0ee7ca44147bab6e…</code></div>
 
-<div class="verdict"><b>Grade C (64.0/100) — quoted but fragile.</b> 10.5 bps wide, $499 of two-sided depth inside 25 bps.</div>
+<div class="verdict"><b>Grade A (80.3/100) — healthy for its tier.</b> Two-sided, 9.2 bps wide with $35.3k of depth inside 25 bps.</div>
 
 <div class="grid">
-  <div class="cell"><div class="k">Health score</div><div class="v">64.0<span style="color:var(--dim);font-size:14px"> /100 · C</span></div></div>
-  <div class="cell"><div class="k">Spread</div><div class="v">10.5<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
-  <div class="cell"><div class="k">Depth ≤25 bps</div><div class="v">$499</div></div>
-  <div class="cell"><div class="k">24h volume</div><div class="v">$16.47M</div></div>
+  <div class="cell"><div class="k">Health score</div><div class="v">80.3<span style="color:var(--dim);font-size:14px"> /100 · A</span></div></div>
+  <div class="cell"><div class="k">Spread</div><div class="v">9.2<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
+  <div class="cell"><div class="k">Depth ≤25 bps</div><div class="v">$35.3k</div></div>
+  <div class="cell"><div class="k">24h volume</div><div class="v">$16.99M</div></div>
 </div>
 
 <h2>What the book says</h2>
-<ul><li><span class='tag'>thin</span> Two-sided depth within 25 bps of the touch is $499. BTC holds $499 in the same band.</li><li><span class='tag'>imbalanced</span> Book is 99% one-sided toward the bid. Directional resting interest, not market making.</li><li><span class='tag'>vol-gap</span> 24h volume is $16.47M against $499 of two-sided depth. Volume is arriving without a book to absorb it — the fill quality is not visible from the volume number alone.</li></ul>
+<ul><li><span class='tag'>ok</span> Two-sided, reasonably tight and deep for its volume tier. No structural problem detected at this snapshot.</li></ul>
 
 <h2>Versus the benchmark</h2>
 <table>
 <tr><th>Metric</th><th class="num">BTC</th><th class="num">BTC/USDC PERP</th></tr>
-<tr><td>Health score</td><td class='num'>64.0</td><td class='num'>64.0</td></tr><tr><td>Spread (bps)</td><td class='num'>10.5</td><td class='num'>10.5</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$499</td><td class='num'>$499</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$912.7k</td><td class='num'>$912.7k</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>0.41</td><td class='num'>0.41</td></tr><tr><td>Book imbalance</td><td class='num'>+99%</td><td class='num'>+99%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>9 / 4</td><td class='num'>9 / 4</td></tr><tr><td>24h volume (USD)</td><td class='num'>$16.47M</td><td class='num'>$16.47M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>10.6</td><td class='num'>10.6</td></tr>
+<tr><td>Health score</td><td class='num'>80.3</td><td class='num'>80.3</td></tr><tr><td>Spread (bps)</td><td class='num'>9.2</td><td class='num'>9.2</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$35.3k</td><td class='num'>$35.3k</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$1.25M</td><td class='num'>$1.25M</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>0.26</td><td class='num'>0.26</td></tr><tr><td>Book imbalance</td><td class='num'>+67%</td><td class='num'>+67%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>9 / 5</td><td class='num'>9 / 5</td></tr><tr><td>24h volume (USD)</td><td class='num'>$16.99M</td><td class='num'>$16.99M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>9.2</td><td class='num'>9.2</td></tr>
 </table>
 
 <h2>What to do next</h2>
-<ul><li>Put at least $5k of two-sided size within 25 bps (currently $499).</li><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
+<ul><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
 
 <div class="note">Taker fee on this market reads 0.01 bps from the market metadata
 (<code>taker_fee_rate</code>), so the round-trip column is dominated by spread, not fees. Funding,
