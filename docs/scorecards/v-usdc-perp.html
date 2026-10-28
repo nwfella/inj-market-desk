@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>HIMS/USDC PERP — Injective market scorecard</title>
+<title>V/USDC PERP — Injective market scorecard</title>
 <style>
 :root{--bg:#0b0d10;--panel:#14181d;--line:#232a33;--fg:#e8edf3;--dim:#8b98a8;--acc:#37d39b;--warn:#f2b13c;--bad:#ef5f6b;--serif:Georgia,'Times New Roman',serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 *{box-sizing:border-box}
@@ -36,29 +36,29 @@ ul{margin:0;padding-left:18px}li{margin:9px 0}
 }
 </style></head><body><div class="wrap">
 <div class="kicker">Injective Market Desk · market scorecard</div>
-<h1>HIMS/USDC PERP</h1>
-<div class="sub">Snapshot 2026-10-28T16:03:47Z · oracle PythPro · market <code>0xcb78a995dd845495…</code></div>
+<h1>V/USDC PERP</h1>
+<div class="sub">Snapshot 2026-10-28T21:05:41Z · oracle PythPro · market <code>0x8ddeec9d03a040e9…</code></div>
 
-<div class="verdict"><b>Grade E (34.1/100) — quoted but fragile.</b> 222.7 bps wide, $1 of two-sided depth inside 25 bps.</div>
+<div class="verdict"><b>Grade D (40.5/100) — quoted but fragile.</b> 740.2 bps wide, $10 of two-sided depth inside 25 bps.</div>
 
 <div class="grid">
-  <div class="cell"><div class="k">Health score</div><div class="v">34.1<span style="color:var(--dim);font-size:14px"> /100 · E</span></div></div>
-  <div class="cell"><div class="k">Spread</div><div class="v">222.7<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
-  <div class="cell"><div class="k">Depth ≤25 bps</div><div class="v">$1</div></div>
-  <div class="cell"><div class="k">24h volume</div><div class="v">$75.9k</div></div>
+  <div class="cell"><div class="k">Health score</div><div class="v">40.5<span style="color:var(--dim);font-size:14px"> /100 · D</span></div></div>
+  <div class="cell"><div class="k">Spread</div><div class="v">740.2<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
+  <div class="cell"><div class="k">Depth ≤25 bps</div><div class="v">$10</div></div>
+  <div class="cell"><div class="k">24h volume</div><div class="v">$56.3k</div></div>
 </div>
 
 <h2>What the book says</h2>
-<ul><li><span class='tag'>wide</span> Spread is 222.7 bps, 34× wider than BTC (6.5 bps). A round trip costs 222.7 bps before any price move.</li><li><span class='tag'>thin</span> Two-sided depth within 25 bps of the touch is $1. BTC holds $292.7k in the same band.</li><li><span class='tag'>imbalanced</span> Book is 75% one-sided toward the bid. Directional resting interest, not market making.</li></ul>
+<ul><li><span class='tag'>wide</span> Spread is 740.2 bps, 150× wider than BTC (4.9 bps). A round trip costs 740.2 bps before any price move.</li><li><span class='tag'>thin</span> Two-sided depth within 25 bps of the touch is $10. BTC holds $290.8k in the same band.</li></ul>
 
 <h2>Versus the benchmark</h2>
 <table>
-<tr><th>Metric</th><th class="num">HIMS</th><th class="num">BTC/USDC PERP</th></tr>
-<tr><td>Health score</td><td class='num'>34.1</td><td class='num'>88.6</td></tr><tr><td>Spread (bps)</td><td class='num'>222.7</td><td class='num'>6.5</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$1</td><td class='num'>$292.7k</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$1</td><td class='num'>$1.20M</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>0.44</td><td class='num'>0.26</td></tr><tr><td>Book imbalance</td><td class='num'>+75%</td><td class='num'>+63%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>1 / 2</td><td class='num'>16 / 7</td></tr><tr><td>24h volume (USD)</td><td class='num'>$75.9k</td><td class='num'>$16.25M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>222.7</td><td class='num'>6.5</td></tr>
+<tr><th>Metric</th><th class="num">V</th><th class="num">BTC/USDC PERP</th></tr>
+<tr><td>Health score</td><td class='num'>40.5</td><td class='num'>94.6</td></tr><tr><td>Spread (bps)</td><td class='num'>740.2</td><td class='num'>4.9</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$10</td><td class='num'>$290.8k</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$10</td><td class='num'>$1.21M</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>0.50</td><td class='num'>0.27</td></tr><tr><td>Book imbalance</td><td class='num'>-2%</td><td class='num'>+5%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>1 / 1</td><td class='num'>16 / 8</td></tr><tr><td>24h volume (USD)</td><td class='num'>$56.3k</td><td class='num'>$16.51M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>740.2</td><td class='num'>4.9</td></tr>
 </table>
 
 <h2>What to do next</h2>
-<ul><li>Tighten the touch below 100 bps (currently 222.7).</li><li>Put at least $5k of two-sided size within 25 bps (currently $1).</li><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
+<ul><li>Tighten the touch below 100 bps (currently 740.2).</li><li>Put at least $5k of two-sided size within 25 bps (currently $10).</li><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
 
 <div class="note">Taker fee on this market reads 0.01 bps from the market metadata
 (<code>taker_fee_rate</code>), so the round-trip column is dominated by spread, not fees. Funding,
