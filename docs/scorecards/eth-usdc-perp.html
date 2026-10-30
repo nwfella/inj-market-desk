@@ -37,28 +37,28 @@ ul{margin:0;padding-left:18px}li{margin:9px 0}
 </style></head><body><div class="wrap">
 <div class="kicker">Injective Market Desk · market scorecard</div>
 <h1>ETH/USDC PERP</h1>
-<div class="sub">Snapshot 2026-10-29T20:18:26Z · oracle ChainlinkDataStreams · market <code>0xe9c90a90ec75194b…</code></div>
+<div class="sub">Snapshot 2026-10-30T01:00:29Z · oracle ChainlinkDataStreams · market <code>0xe9c90a90ec75194b…</code></div>
 
-<div class="verdict"><b>Grade A (95.3/100) — healthy for its tier.</b> Two-sided, 10.4 bps wide with $368.7k of depth inside 25 bps.</div>
+<div class="verdict"><b>Grade A (91.5/100) — healthy for its tier.</b> Two-sided, 6.3 bps wide with $111.0k of depth inside 25 bps.</div>
 
 <div class="grid">
-  <div class="cell"><div class="k">Health score</div><div class="v">95.3<span style="color:var(--dim);font-size:14px"> /100 · A</span></div></div>
-  <div class="cell"><div class="k">Spread</div><div class="v">10.4<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
-  <div class="cell"><div class="k">Depth ≤25 bps</div><div class="v">$368.7k</div></div>
-  <div class="cell"><div class="k">24h volume</div><div class="v">$12.76M</div></div>
+  <div class="cell"><div class="k">Health score</div><div class="v">91.5<span style="color:var(--dim);font-size:14px"> /100 · A</span></div></div>
+  <div class="cell"><div class="k">Spread</div><div class="v">6.3<span style="color:var(--dim);font-size:14px"> bps</span></div></div>
+  <div class="cell"><div class="k">Depth ≤25 bps</div><div class="v">$111.0k</div></div>
+  <div class="cell"><div class="k">24h volume</div><div class="v">$12.92M</div></div>
 </div>
 
 <h2>What the book says</h2>
-<ul><li><span class='tag'>ok</span> Two-sided, reasonably tight and deep for its volume tier. No structural problem detected at this snapshot.</li></ul>
+<ul><li><span class='tag'>concentrated</span> One level holds 61% of resting notional (HHI 0.61). The quote is a placeholder, not a market: pull it and the book is empty.</li></ul>
 
 <h2>Versus the benchmark</h2>
 <table>
 <tr><th>Metric</th><th class="num">ETH</th><th class="num">BTC/USDC PERP</th></tr>
-<tr><td>Health score</td><td class='num'>95.3</td><td class='num'>95.6</td></tr><tr><td>Spread (bps)</td><td class='num'>10.4</td><td class='num'>4.4</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$368.7k</td><td class='num'>$326.0k</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$1.20M</td><td class='num'>$1.23M</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>0.56</td><td class='num'>0.26</td></tr><tr><td>Book imbalance</td><td class='num'>-0%</td><td class='num'>-0%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>9 / 12</td><td class='num'>17 / 9</td></tr><tr><td>24h volume (USD)</td><td class='num'>$12.76M</td><td class='num'>$16.36M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>10.4</td><td class='num'>4.4</td></tr>
+<tr><td>Health score</td><td class='num'>91.5</td><td class='num'>82.7</td></tr><tr><td>Spread (bps)</td><td class='num'>6.3</td><td class='num'>3.6</td></tr><tr><td>Depth ≤25 bps (USD)</td><td class='num'>$111.0k</td><td class='num'>$20.6k</td></tr><tr><td>Depth ≤100 bps (USD)</td><td class='num'>$912.4k</td><td class='num'>$872.2k</td></tr><tr><td>Book concentration (HHI)</td><td class='num'>0.61</td><td class='num'>0.40</td></tr><tr><td>Book imbalance</td><td class='num'>-0%</td><td class='num'>+31%</td></tr><tr><td>Levels (bid / ask)</td><td class='num'>8 / 9</td><td class='num'>13 / 9</td></tr><tr><td>24h volume (USD)</td><td class='num'>$12.92M</td><td class='num'>$17.47M</td></tr><tr><td>Round trip: spread + 2×taker</td><td class='num'>6.3</td><td class='num'>3.6</td></tr>
 </table>
 
 <h2>What to do next</h2>
-<ul><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
+<ul><li>Split the single resting level into 3+ levels — one level at 80% depth is a quote, not liquidity.</li><li>Re-measure on a fixed cadence. One snapshot is an anecdote; the hourly series is what tells you whether a maker incentive worked.</li></ul>
 
 <div class="note">Taker fee on this market reads 0.01 bps from the market metadata
 (<code>taker_fee_rate</code>), so the round-trip column is dominated by spread, not fees. Funding,
