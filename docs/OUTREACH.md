@@ -1,13 +1,13 @@
 # Outreach — Phase 0
 
-Generated 2026-11-14T17:08:40Z from `data/latest.json`. Do not hand-edit; regenerate with
+Generated 2026-11-14T21:30:35Z from `data/latest.json`. Do not hand-edit; regenerate with
 `python build_site.py`.
 
 ## The three numbers to lead with
 
-- **252 of 309 Injective perp markets (81.6%)** had no two-sided quote at snapshot time.
-- The median quoted market is **50.9 bps wide** (BTC: 9.4 bps).
-- **Median two-sided depth inside 25 bps: $4.1k.** The whole venue holds $1.06M within 25 bps.
+- **255 of 308 Injective perp markets (82.8%)** had no two-sided quote at snapshot time.
+- The median quoted market is **51.6 bps wide** (BTC: 10.2 bps).
+- **Median two-sided depth inside 25 bps: $4.1k.** The whole venue holds $898.2k within 25 bps.
 
 ## Target list — volume is arriving, book is not
 
@@ -16,9 +16,9 @@ Generated 2026-11-14T17:08:40Z from `data/latest.json`. Do not hand-edit; regene
 | `USDHKD/USDC PERP` | 20 E | — | $0 | $577.4k | [scorecard](docs/scorecards/usdhkd-usdc-perp.html) |
 | `SICI/USDC PERP` | 20 F | — | $0 | $503.6k | [scorecard](docs/scorecards/sici-usdc-perp.html) |
 | `AVGO/USDC PERP` | 17 F | — | $0 | $294.9k | [scorecard](docs/scorecards/avgo-usdc-perp.html) |
-| `VVV/USDC PERP` | 34 E | 19,976.9 | $10 | $153.6k | [scorecard](docs/scorecards/vvv-usdc-perp.html) |
-| `XAG/USDC PERP` | 38 D | 19,999.2 | $5 | $363.5k | [scorecard](docs/scorecards/xag-usdc-perp.html) |
-| `MU/USDC PERP` | 43 D | 19,999.5 | $5 | $333.3k | [scorecard](docs/scorecards/mu-usdc-perp.html) |
+| `XAG/USDC PERP` | 38 D | 19,999.2 | $5 | $363.4k | [scorecard](docs/scorecards/xag-usdc-perp.html) |
+| `MSTR/USDC PERP` | 43 D | 102.6 | $5 | $56.7k | [scorecard](docs/scorecards/mstr-usdc-perp.html) |
+| `MU/USDC PERP` | 44 D | 19,999.5 | $5 | $349.9k | [scorecard](docs/scorecards/mu-usdc-perp.html) |
 | `DELL/USDC PERP` | 44 D | 19,998.8 | $5 | $408.9k | [scorecard](docs/scorecards/dell-usdc-perp.html) |
 
 ## How to find who to email
@@ -37,17 +37,17 @@ owns the market's liquidity.
 ## Fill-in values
 
 ```
-BTC/USDC PERP: score=94.9A spread=9.4 depth25=$318.1k vol24h=$7.64M url=<site>/scorecards/btc-usdc-perp.html
-ETH/USDC PERP: score=89.7A spread=14.9 depth25=$294.1k vol24h=$5.27M url=<site>/scorecards/eth-usdc-perp.html
-INJ/USDC PERP: score=87.5A spread=35.1 depth25=$100.1k vol24h=$3.37M url=<site>/scorecards/inj-usdc-perp.html
+BTC/USDC PERP: score=94.6A spread=10.2 depth25=$298.0k vol24h=$7.63M url=<site>/scorecards/btc-usdc-perp.html
+ETH/USDC PERP: score=88.9A spread=17.4 depth25=$280.9k vol24h=$5.38M url=<site>/scorecards/eth-usdc-perp.html
+INJ/USDC PERP: score=80.8A spread=42.4 depth25=$20.5k vol24h=$3.36M url=<site>/scorecards/inj-usdc-perp.html
 USDHKD/USDC PERP: score=20.3E spread=— depth25=$0 vol24h=$577.4k url=<site>/scorecards/usdhkd-usdc-perp.html
 SICI/USDC PERP: score=19.6F spread=— depth25=$0 vol24h=$503.6k url=<site>/scorecards/sici-usdc-perp.html
 AVGO/USDC PERP: score=17.0F spread=— depth25=$0 vol24h=$294.9k url=<site>/scorecards/avgo-usdc-perp.html
-VVV/USDC PERP: score=34.2E spread=19,976.9 depth25=$10 vol24h=$153.6k url=<site>/scorecards/vvv-usdc-perp.html
-XAG/USDC PERP: score=37.7D spread=19,999.2 depth25=$5 vol24h=$363.5k url=<site>/scorecards/xag-usdc-perp.html
-MU/USDC PERP: score=43.3D spread=19,999.5 depth25=$5 vol24h=$333.3k url=<site>/scorecards/mu-usdc-perp.html
+XAG/USDC PERP: score=37.7D spread=19,999.2 depth25=$5 vol24h=$363.4k url=<site>/scorecards/xag-usdc-perp.html
+MSTR/USDC PERP: score=42.9D spread=102.6 depth25=$5 vol24h=$56.7k url=<site>/scorecards/mstr-usdc-perp.html
+MU/USDC PERP: score=43.5D spread=19,999.5 depth25=$5 vol24h=$349.9k url=<site>/scorecards/mu-usdc-perp.html
 DELL/USDC PERP: score=43.8D spread=19,998.8 depth25=$5 vol24h=$408.9k url=<site>/scorecards/dell-usdc-perp.html
-BTC benchmark: spread=9.4 depth25=$318.1k
+BTC benchmark: spread=10.2 depth25=$298.0k
 ```
 
 ## Email A — launch desk (markets with a book but broken microstructure)
