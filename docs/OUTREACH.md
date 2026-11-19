@@ -1,25 +1,25 @@
 # Outreach — Phase 0
 
-Generated 2026-11-19T03:28:12Z from `data/latest.json`. Do not hand-edit; regenerate with
+Generated 2026-11-19T13:07:39Z from `data/latest.json`. Do not hand-edit; regenerate with
 `python build_site.py`.
 
 ## The three numbers to lead with
 
 - **308 of 363 Injective perp markets (84.8%)** had no two-sided quote at snapshot time.
-- The median quoted market is **46.3 bps wide** (BTC: 8.3 bps).
-- **Median two-sided depth inside 25 bps: $4.1k.** The whole venue holds $1.29M within 25 bps.
+- The median quoted market is **47.4 bps wide** (BTC: 5.3 bps).
+- **Median two-sided depth inside 25 bps: $4.1k.** The whole venue holds $1.25M within 25 bps.
 
 ## Target list — volume is arriving, book is not
 
 | Market | Score | Spread bps | Depth ≤25 bps | 24h volume | Scorecard |
 |---|---|---|---|---|---|
-| `USDHKD/USDC PERP` | 20 E | — | $0 | $547.5k | [scorecard](docs/scorecards/usdhkd-usdc-perp.html) |
-| `DELL/USDC PERP` | 18 F | — | $0 | $365.9k | [scorecard](docs/scorecards/dell-usdc-perp.html) |
-| `EURUSD/USDC PERP` | 18 F | — | $0 | $345.7k | [scorecard](docs/scorecards/eurusd-usdc-perp.html) |
-| `XAG/USDC PERP` | 37 D | 19,999.1 | $5 | $310.3k | [scorecard](docs/scorecards/xag-usdc-perp.html) |
-| `FLOKI/USDC PERP` | 42 D | 740.0 | $11 | $104.9k | [scorecard](docs/scorecards/floki-usdc-perp.html) |
-| `MU/USDC PERP` | 42 D | 19,999.4 | $5 | $278.5k | [scorecard](docs/scorecards/mu-usdc-perp.html) |
-| `INTC/USDC PERP` | 46 D | 19,992.8 | $9 | $326.5k | [scorecard](docs/scorecards/intc-usdc-perp.html) |
+| `USDHKD/USDC PERP` | 23 E | — | $0 | $1.41M | [scorecard](docs/scorecards/usdhkd-usdc-perp.html) |
+| `DELL/USDC PERP` | 19 F | — | $0 | $460.8k | [scorecard](docs/scorecards/dell-usdc-perp.html) |
+| `EURUSD/USDC PERP` | 19 F | — | $0 | $455.7k | [scorecard](docs/scorecards/eurusd-usdc-perp.html) |
+| `FIL/USDC PERP` | 35 E | 212.2 | $1 | $180.7k | [scorecard](docs/scorecards/fil-usdc-perp.html) |
+| `XAG/USDC PERP` | 38 D | 19,999.1 | $5 | $433.5k | [scorecard](docs/scorecards/xag-usdc-perp.html) |
+| `ANT/USDC PERP` | 38 D | 1,646.1 | $28 | $79.9k | [scorecard](docs/scorecards/ant-usdc-perp.html) |
+| `FLOKI/USDC PERP` | 43 D | 740.1 | $11 | $149.2k | [scorecard](docs/scorecards/floki-usdc-perp.html) |
 
 ## How to find who to email
 
@@ -37,17 +37,17 @@ owns the market's liquidity.
 ## Fill-in values
 
 ```
-BTC/USDC PERP: score=94.6A spread=8.3 depth25=$305.1k vol24h=$7.97M url=<site>/scorecards/btc-usdc-perp.html
-ETH/USDC PERP: score=94.8A spread=11.3 depth25=$326.0k vol24h=$6.15M url=<site>/scorecards/eth-usdc-perp.html
-INJ/USDC PERP: score=87.0A spread=39.2 depth25=$100.3k vol24h=$4.43M url=<site>/scorecards/inj-usdc-perp.html
-USDHKD/USDC PERP: score=20.1E spread=— depth25=$0 vol24h=$547.5k url=<site>/scorecards/usdhkd-usdc-perp.html
-DELL/USDC PERP: score=18.0F spread=— depth25=$0 vol24h=$365.9k url=<site>/scorecards/dell-usdc-perp.html
-EURUSD/USDC PERP: score=17.8F spread=— depth25=$0 vol24h=$345.7k url=<site>/scorecards/eurusd-usdc-perp.html
-XAG/USDC PERP: score=37.2D spread=19,999.1 depth25=$5 vol24h=$310.3k url=<site>/scorecards/xag-usdc-perp.html
-FLOKI/USDC PERP: score=42.3D spread=740.0 depth25=$11 vol24h=$104.9k url=<site>/scorecards/floki-usdc-perp.html
-MU/USDC PERP: score=42.5D spread=19,999.4 depth25=$5 vol24h=$278.5k url=<site>/scorecards/mu-usdc-perp.html
-INTC/USDC PERP: score=45.8D spread=19,992.8 depth25=$9 vol24h=$326.5k url=<site>/scorecards/intc-usdc-perp.html
-BTC benchmark: spread=8.3 depth25=$305.1k
+BTC/USDC PERP: score=95.5A spread=5.3 depth25=$326.4k vol24h=$4.26M url=<site>/scorecards/btc-usdc-perp.html
+ETH/USDC PERP: score=95.1A spread=10.0 depth25=$346.1k vol24h=$3.73M url=<site>/scorecards/eth-usdc-perp.html
+INJ/USDC PERP: score=87.7A spread=38.6 depth25=$120.8k vol24h=$4.18M url=<site>/scorecards/inj-usdc-perp.html
+USDHKD/USDC PERP: score=23.1E spread=— depth25=$0 vol24h=$1.41M url=<site>/scorecards/usdhkd-usdc-perp.html
+DELL/USDC PERP: score=19.2F spread=— depth25=$0 vol24h=$460.8k url=<site>/scorecards/dell-usdc-perp.html
+EURUSD/USDC PERP: score=19.1F spread=— depth25=$0 vol24h=$455.7k url=<site>/scorecards/eurusd-usdc-perp.html
+FIL/USDC PERP: score=34.9E spread=212.2 depth25=$1 vol24h=$180.7k url=<site>/scorecards/fil-usdc-perp.html
+XAG/USDC PERP: score=38.3D spread=19,999.1 depth25=$5 vol24h=$433.5k url=<site>/scorecards/xag-usdc-perp.html
+ANT/USDC PERP: score=38.5D spread=1,646.1 depth25=$28 vol24h=$79.9k url=<site>/scorecards/ant-usdc-perp.html
+FLOKI/USDC PERP: score=43.4D spread=740.1 depth25=$11 vol24h=$149.2k url=<site>/scorecards/floki-usdc-perp.html
+BTC benchmark: spread=5.3 depth25=$326.4k
 ```
 
 ## Email A — launch desk (markets with a book but broken microstructure)
