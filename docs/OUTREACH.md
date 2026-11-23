@@ -1,25 +1,25 @@
 # Outreach — Phase 0
 
-Generated 2026-11-22T19:40:39Z from `data/latest.json`. Do not hand-edit; regenerate with
+Generated 2026-11-23T00:53:53Z from `data/latest.json`. Do not hand-edit; regenerate with
 `python build_site.py`.
 
 ## The three numbers to lead with
 
-- **257 of 307 Injective perp markets (83.7%)** had no two-sided quote at snapshot time.
-- The median quoted market is **55.0 bps wide** (BTC: 9.6 bps).
-- **Median two-sided depth inside 25 bps: $7.7k.** The whole venue holds $1.34M within 25 bps.
+- **258 of 307 Injective perp markets (84.0%)** had no two-sided quote at snapshot time.
+- The median quoted market is **50.8 bps wide** (BTC: 2.3 bps).
+- **Median two-sided depth inside 25 bps: $5.4k.** The whole venue holds $1.22M within 25 bps.
 
 ## Target list — volume is arriving, book is not
 
 | Market | Score | Spread bps | Depth ≤25 bps | 24h volume | Scorecard |
 |---|---|---|---|---|---|
 | `USDHKD/USDC PERP` | 20 E | — | $0 | $554.4k | [scorecard](docs/scorecards/usdhkd-usdc-perp.html) |
+| `NEAR/USDC PERP` | 17 F | — | $0 | $297.1k | [scorecard](docs/scorecards/near-usdc-perp.html) |
 | `PEP/USDC PERP` | 16 F | — | $0 | $249.9k | [scorecard](docs/scorecards/pep-usdc-perp.html) |
-| `NEAR/USDC PERP` | 16 F | — | $0 | $248.7k | [scorecard](docs/scorecards/near-usdc-perp.html) |
-| `NVDA/USDC PERP` | 54 C | 240.9 | $34.6k | $71.0k | [scorecard](docs/scorecards/nvda-usdc-perp.html) |
-| `LINK/USDC PERP` | 62 C | 50.7 | $5.0k | $100.9k | [scorecard](docs/scorecards/link-usdc-perp.html) |
-| `AVAX/USDC PERP` | 63 C | 42.5 | $5.0k | $200.2k | [scorecard](docs/scorecards/avax-usdc-perp.html) |
-| `ATOM/USDC PERP` | 63 C | 36.0 | $5.6k | $72.8k | [scorecard](docs/scorecards/atom-usdc-perp.html) |
+| `NVDA/USDC PERP` | 32 E | 354.3 | $1.2k | $62.9k | [scorecard](docs/scorecards/nvda-usdc-perp.html) |
+| `TAIKO/USDC PERP` | 47 D | 71.0 | $18 | $53.8k | [scorecard](docs/scorecards/taiko-usdc-perp.html) |
+| `POPCAT/USDC PERP` | 52 C | 49.3 | $70 | $50.9k | [scorecard](docs/scorecards/popcat-usdc-perp.html) |
+| `ZRO/USDC PERP` | 52 C | 39.8 | $591 | $83.8k | [scorecard](docs/scorecards/zro-usdc-perp.html) |
 
 ## How to find who to email
 
@@ -37,17 +37,17 @@ owns the market's liquidity.
 ## Fill-in values
 
 ```
-BTC/USDC PERP: score=92.4A spread=9.6 depth25=$282.7k vol24h=$716.9k url=<site>/scorecards/btc-usdc-perp.html
-ETH/USDC PERP: score=87.2A spread=9.3 depth25=$328.6k vol24h=$159.1k url=<site>/scorecards/eth-usdc-perp.html
-INJ/USDC PERP: score=81.3A spread=35.5 depth25=$104.6k vol24h=$368.1k url=<site>/scorecards/inj-usdc-perp.html
+BTC/USDC PERP: score=94.2A spread=2.3 depth25=$320.5k vol24h=$666.5k url=<site>/scorecards/btc-usdc-perp.html
+ETH/USDC PERP: score=89.6A spread=5.2 depth25=$200.7k vol24h=$376.2k url=<site>/scorecards/eth-usdc-perp.html
+INJ/USDC PERP: score=84.3A spread=35.6 depth25=$104.6k vol24h=$368.3k url=<site>/scorecards/inj-usdc-perp.html
 USDHKD/USDC PERP: score=20.1E spread=— depth25=$0 vol24h=$554.4k url=<site>/scorecards/usdhkd-usdc-perp.html
+NEAR/USDC PERP: score=17.0F spread=— depth25=$0 vol24h=$297.1k url=<site>/scorecards/near-usdc-perp.html
 PEP/USDC PERP: score=16.1F spread=— depth25=$0 vol24h=$249.9k url=<site>/scorecards/pep-usdc-perp.html
-NEAR/USDC PERP: score=16.1F spread=— depth25=$0 vol24h=$248.7k url=<site>/scorecards/near-usdc-perp.html
-NVDA/USDC PERP: score=54.2C spread=240.9 depth25=$34.6k vol24h=$71.0k url=<site>/scorecards/nvda-usdc-perp.html
-LINK/USDC PERP: score=61.5C spread=50.7 depth25=$5.0k vol24h=$100.9k url=<site>/scorecards/link-usdc-perp.html
-AVAX/USDC PERP: score=62.9C spread=42.5 depth25=$5.0k vol24h=$200.2k url=<site>/scorecards/avax-usdc-perp.html
-ATOM/USDC PERP: score=63.0C spread=36.0 depth25=$5.6k vol24h=$72.8k url=<site>/scorecards/atom-usdc-perp.html
-BTC benchmark: spread=9.6 depth25=$282.7k
+NVDA/USDC PERP: score=32.5E spread=354.3 depth25=$1.2k vol24h=$62.9k url=<site>/scorecards/nvda-usdc-perp.html
+TAIKO/USDC PERP: score=47.4D spread=71.0 depth25=$18 vol24h=$53.8k url=<site>/scorecards/taiko-usdc-perp.html
+POPCAT/USDC PERP: score=51.5C spread=49.3 depth25=$70 vol24h=$50.9k url=<site>/scorecards/popcat-usdc-perp.html
+ZRO/USDC PERP: score=52.5C spread=39.8 depth25=$591 vol24h=$83.8k url=<site>/scorecards/zro-usdc-perp.html
+BTC benchmark: spread=2.3 depth25=$320.5k
 ```
 
 ## Email A — launch desk (markets with a book but broken microstructure)
