@@ -1,25 +1,25 @@
 # Outreach — Phase 0
 
-Generated 2026-11-27T19:28:18Z from `data/latest.json`. Do not hand-edit; regenerate with
+Generated 2026-11-28T02:40:59Z from `data/latest.json`. Do not hand-edit; regenerate with
 `python build_site.py`.
 
 ## The three numbers to lead with
 
 - **260 of 307 Injective perp markets (84.7%)** had no two-sided quote at snapshot time.
-- The median quoted market is **53.6 bps wide** (BTC: 5.0 bps).
-- **Median two-sided depth inside 25 bps: $4.2k.** The whole venue holds $1.23M within 25 bps.
+- The median quoted market is **63.2 bps wide** (BTC: 5.2 bps).
+- **Median two-sided depth inside 25 bps: $12.8k.** The whole venue holds $1.36M within 25 bps.
 
 ## Target list — volume is arriving, book is not
 
 | Market | Score | Spread bps | Depth ≤25 bps | 24h volume | Scorecard |
 |---|---|---|---|---|---|
 | `SICI/USDC PERP` | 20 E | — | $0 | $547.5k | [scorecard](docs/scorecards/sici-usdc-perp.html) |
-| `USDSEK/USDC PERP` | 20 F | — | $0 | $508.0k | [scorecard](docs/scorecards/usdsek-usdc-perp.html) |
-| `USTECH/USDC PERP` | 18 F | — | $0 | $335.7k | [scorecard](docs/scorecards/ustech-usdc-perp.html) |
-| `EURUSD/USDC PERP` | 38 D | 19,999.6 | $100 | $195.3k | [scorecard](docs/scorecards/eurusd-usdc-perp.html) |
+| `USDSEK/USDC PERP` | 20 F | — | $0 | $507.9k | [scorecard](docs/scorecards/usdsek-usdc-perp.html) |
+| `USTECH/USDC PERP` | 18 F | — | $0 | $335.6k | [scorecard](docs/scorecards/ustech-usdc-perp.html) |
+| `AAPL/USDC PERP` | 36 D | 20,000.0 | $260 | $272.2k | [scorecard](docs/scorecards/aapl-usdc-perp.html) |
 | `XAG/USDC PERP` | 40 D | 19,999.1 | $18 | $379.7k | [scorecard](docs/scorecards/xag-usdc-perp.html) |
 | `FLOKI/USDC PERP` | 40 D | 739.9 | $11 | $51.9k | [scorecard](docs/scorecards/floki-usdc-perp.html) |
-| `MU/USDC PERP` | 42 D | 19,999.4 | $10 | $224.0k | [scorecard](docs/scorecards/mu-usdc-perp.html) |
+| `EURUSD/USDC PERP` | 40 D | 19,999.6 | $100 | $316.8k | [scorecard](docs/scorecards/eurusd-usdc-perp.html) |
 
 ## How to find who to email
 
@@ -37,17 +37,17 @@ owns the market's liquidity.
 ## Fill-in values
 
 ```
-BTC/USDC PERP: score=95.5A spread=5.0 depth25=$346.4k vol24h=$1.52M url=<site>/scorecards/btc-usdc-perp.html
-ETH/USDC PERP: score=93.7A spread=5.4 depth25=$229.8k vol24h=$843.2k url=<site>/scorecards/eth-usdc-perp.html
-INJ/USDC PERP: score=88.8A spread=9.4 depth25=$80.1k vol24h=$2.43M url=<site>/scorecards/inj-usdc-perp.html
+BTC/USDC PERP: score=95.5A spread=5.2 depth25=$346.4k vol24h=$2.79M url=<site>/scorecards/btc-usdc-perp.html
+ETH/USDC PERP: score=93.2A spread=6.0 depth25=$309.8k vol24h=$1.62M url=<site>/scorecards/eth-usdc-perp.html
+INJ/USDC PERP: score=84.1A spread=36.7 depth25=$99.9k vol24h=$2.50M url=<site>/scorecards/inj-usdc-perp.html
 SICI/USDC PERP: score=20.1E spread=— depth25=$0 vol24h=$547.5k url=<site>/scorecards/sici-usdc-perp.html
-USDSEK/USDC PERP: score=19.7F spread=— depth25=$0 vol24h=$508.0k url=<site>/scorecards/usdsek-usdc-perp.html
-USTECH/USDC PERP: score=17.6F spread=— depth25=$0 vol24h=$335.7k url=<site>/scorecards/ustech-usdc-perp.html
-EURUSD/USDC PERP: score=38.0D spread=19,999.6 depth25=$100 vol24h=$195.3k url=<site>/scorecards/eurusd-usdc-perp.html
+USDSEK/USDC PERP: score=19.7F spread=— depth25=$0 vol24h=$507.9k url=<site>/scorecards/usdsek-usdc-perp.html
+USTECH/USDC PERP: score=17.6F spread=— depth25=$0 vol24h=$335.6k url=<site>/scorecards/ustech-usdc-perp.html
+AAPL/USDC PERP: score=35.8D spread=20,000.0 depth25=$260 vol24h=$272.2k url=<site>/scorecards/aapl-usdc-perp.html
 XAG/USDC PERP: score=39.9D spread=19,999.1 depth25=$18 vol24h=$379.7k url=<site>/scorecards/xag-usdc-perp.html
 FLOKI/USDC PERP: score=40.0D spread=739.9 depth25=$11 vol24h=$51.9k url=<site>/scorecards/floki-usdc-perp.html
-MU/USDC PERP: score=42.2D spread=19,999.4 depth25=$10 vol24h=$224.0k url=<site>/scorecards/mu-usdc-perp.html
-BTC benchmark: spread=5.0 depth25=$346.4k
+EURUSD/USDC PERP: score=40.2D spread=19,999.6 depth25=$100 vol24h=$316.8k url=<site>/scorecards/eurusd-usdc-perp.html
+BTC benchmark: spread=5.2 depth25=$346.4k
 ```
 
 ## Email A — launch desk (markets with a book but broken microstructure)
